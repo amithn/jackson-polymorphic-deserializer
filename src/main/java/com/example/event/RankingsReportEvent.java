@@ -1,4 +1,4 @@
-package com.experian.event;
+package com.example.event;
 
 public class RankingsReportEvent extends Event {
     private String website;

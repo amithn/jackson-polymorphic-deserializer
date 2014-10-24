@@ -1,8 +1,8 @@
-import com.experian.event.DemographicReportEvent;
-import com.experian.event.Event;
-import com.experian.event.EventType;
-import com.experian.event.RankingsReportEvent;
-import com.experian.event.Region;
+import com.example.event.DemographicReportEvent;
+import com.example.event.Event;
+import com.example.event.EventType;
+import com.example.event.RankingsReportEvent;
+import com.example.event.Region;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,8 +11,8 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 
-import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
 public class EventDeserializerTest {

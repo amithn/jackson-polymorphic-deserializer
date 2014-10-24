@@ -1,4 +1,4 @@
-package com.experian.event;
+package com.example.event;
 
 
 import com.fasterxml.jackson.annotation.JsonSubTypes;

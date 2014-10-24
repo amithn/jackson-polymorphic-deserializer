@@ -1,4 +1,4 @@
-package com.experian.event;
+package com.example.event;
 
 /**
  * Created by voicestreams on 10/24/14.
