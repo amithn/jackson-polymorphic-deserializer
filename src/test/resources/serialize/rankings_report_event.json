@@ -1,5 +1,6 @@
 {
     "type": "RANKINGS_REPORT",
     "website" : "www.google.com",
-    "region" : "AU"
+    "region" : "AU",
+    "id" : "abc-123-456"
 }

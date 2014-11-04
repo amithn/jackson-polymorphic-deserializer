@@ -1,5 +1,6 @@
 {
     "type": "DEMOGRAPHIC_REPORT",
-    "expression" : "HWVISITS('www.google.com')",
-    "region" : "UK"
+    "expression" : "ABC_DEF_GHI",
+    "region" : "UK",
+    "id" : "abc-123-456"
 }

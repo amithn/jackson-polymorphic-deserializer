@@ -33,7 +33,8 @@ public class EventDeserializerTest {
        assertTrue(event instanceof DemographicReportEvent);
 
        DemographicReportEvent demographicReportEvent  = (DemographicReportEvent) event;
-       assertThat(demographicReportEvent.getExpression(), is("HWVISITS('www.google.com')"));
+       assertThat(demographicReportEvent.getExpression(), is("ABC_DEF_GHI"));
+       assertThat(demographicReportEvent.getId(), is("abc-123-456"));
        assertThat(demographicReportEvent.getRegion(), is(Region.UK));
    }
 
@@ -47,6 +48,7 @@ public class EventDeserializerTest {
 
         RankingsReportEvent rankingsReportEvent  = (RankingsReportEvent) event;
         assertThat(rankingsReportEvent.getWebsite(), is("www.google.com"));
+        assertThat(rankingsReportEvent.getId(), is("abc-123-456"));
         assertThat(rankingsReportEvent.getRegion(), is(Region.AU));
     }
 
